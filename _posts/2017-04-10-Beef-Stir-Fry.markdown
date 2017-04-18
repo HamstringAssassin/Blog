@@ -5,7 +5,7 @@ date:   2017-04-10 20:56:00
 categories: jekyll update
 image: http://placehold.it/300x300
 steps: 
- - one: Some text
+ - one: fry the beef, ginger, chilli and coriander together
  - two: some more text
 
 
@@ -20,6 +20,7 @@ Ingredients:
 - eight: garlic
 - nine: chilli pepper
 - ten: spring onions
+- eleven: corriander
 
 ---
 
