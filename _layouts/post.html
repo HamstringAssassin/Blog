@@ -13,7 +13,7 @@ layout: default
   <article class="post-content">
 
 	{% for ingredient_hash in page.ingredients %}
-		{% for ingredient in step_hash  %}
+		{% for ingredient in ingredient_hash  %}
 			<p>
 			<b>{{ ingredient[0] }}: </b>
 			{{ ingredient[1] }}
