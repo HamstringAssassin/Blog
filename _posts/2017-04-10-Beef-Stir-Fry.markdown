@@ -10,6 +10,16 @@ steps:
 
 
 Ingredients: 
+- one: one red pepper
+- two: one green pepper
+- three: bean sprouts
+- four: soy sauce
+- five: beef
+- six: mangetout
+- seven: ginger
+- eight: garlic
+- nine: chilli pepper
+- ten: spring onions
 
 ---
 

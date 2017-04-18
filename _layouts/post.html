@@ -11,6 +11,16 @@ layout: default
 	<img src="{{ page.image }}">
 
   <article class="post-content">
+
+	{% for ingredient_hash in page.ingredients %}
+		{% for ingredient in step_hash  %}
+			<p>
+			<b>{{ ingredient[0] }}: </b>
+			{{ ingredient[1] }}
+			</p>
+		{% endfor %}	
+	{% endfor %}
+
 	{% for step_hash in page.steps %}
 		{% for step in step_hash  %}
 			<p>
