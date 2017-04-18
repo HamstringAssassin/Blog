@@ -9,7 +9,7 @@ steps:
  - two: some more text
 
 
-Ingredients: 
+ingredients: 
 - one: one red pepper
 - two: one green pepper
 - three: bean sprouts
