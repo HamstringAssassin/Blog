@@ -8,6 +8,7 @@ steps:
  - one: fry the beef, ginger, chilli and coriander together
  - two: some more text
 
+---
 
 ingredients: 
 - one: one red pepper
