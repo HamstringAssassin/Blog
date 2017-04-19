@@ -3,34 +3,39 @@ layout: default
 ---
 <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+	<header class="post-header">
+		<h1 class="post-title">{{ page.title }}</h1>
+		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+	</header>
 
 	<img src="{{ page.image }}">
 
-  <article class="post-content">
-
-	{% for ingredient_hash in page.ingredients %}
-		{% for ingredient in ingredient_hash  %}
+	<article class="post-content">
+		<div class="ingredients">
+			<h2>Ingredients</h2>
+			{% for ingredient_hash in page.ingredients %}
+			{% for ingredient in ingredient_hash  %}
 			<p>
-			<b>{{ ingredient[0] }}: </b>
-			{{ ingredient[1] }}
+				<b>{{ ingredient[0] }}: </b>
+				{{ ingredient[1] }}
 			</p>
-		{% endfor %}	
-	{% endfor %}
+			{% endfor %}	
+			{% endfor %}
+		</div>
 
-	{% for step_hash in page.steps %}
-		{% for step in step_hash  %}
+		<div class="steps">
+			<h2>Steps</h2>
+			{% for step_hash in page.steps %}
+			{% for step in step_hash  %}
 			<p>
-			<b>{{ step[0] }}: </b>
-			{{ step[1] }}
+				<b>{{ step[0] }}: </b>
+				{{ step[1] }}
 			</p>
-		{% endfor %}	
-	{% endfor %}
-
-    {{ content }}
-  </article>
+			{% endfor %}	
+			{% endfor %}	
+		</div>
+		
+		{{ content }}
+	</article>
 
 </div>
