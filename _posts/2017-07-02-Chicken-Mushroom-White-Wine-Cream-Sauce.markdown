@@ -2,7 +2,7 @@
 layout: post
 title:  "Chicken with Mushroom and White Wine Sauce"
 date:   2017-07-01
-categories: jekyll update
+categories: 
 image: http://placehold.it/300x300
 
 about: 

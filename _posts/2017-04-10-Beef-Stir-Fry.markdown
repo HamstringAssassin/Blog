@@ -2,11 +2,11 @@
 layout: post
 title:  "Thai Beef Stir Fry"
 date:   2017-04-10 20:56:00
-categories: jekyll update
+categories: 
 image: http://placehold.it/300x300
 
 about: 
- - A simple, quick thai beef stir fry. The veg here can be substituted or added to depending on what you have lying around or what you prefer. 
+- A simple, quick thai beef stir fry. The veg here can be substituted or added to depending on what you have lying around or what you prefer. 
 
 steps: 
  - Fry the beef, ginger, chilli and coriander together
@@ -19,8 +19,7 @@ steps:
  - Add soy sauce, a tablespoon of oyster sauce and a teaspoon of sugar
  - add the juice of lime just before serving
 
-
-ingredients:
+ingredients: 
  - one red pepper
  - one green pepper
  - bean sprouts
@@ -37,8 +36,4 @@ ingredients:
  - Salt
  - pepper
  - sugar
-
-
 ---
-
-
