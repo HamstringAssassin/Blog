@@ -5,8 +5,7 @@ date:   2017-07-01
 categories: 
 image: http://placehold.it/300x300
 
-about: 
- - A simple, french style cream sauce with onions and mushrooms. Can be made chicken fillets, thighs or drumsticks. 
+description: A simple, french style cream sauce with onions and mushrooms. Can be made chicken fillets, thighs or drumsticks. 
 
 steps: 
  - Fry the chicken in some oil in a hot pan for a few minutes on each side until slightly brown

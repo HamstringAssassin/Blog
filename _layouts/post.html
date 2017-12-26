@@ -11,6 +11,13 @@ layout: default
 	<img src="{{ page.image }}">
 
 	<article class="post-content">
+		
+		<div class="description">
+			<h2>Description</h2>
+			{{ page.description }}
+
+		</div>
+	<br>
 		<div class="ingredients">
 			<h2>Ingredients</h2>
 			{% for ingredient in page.ingredients %}
@@ -20,7 +27,7 @@ layout: default
 				</p>
 			{% endfor %}
 		</div>
-
+	<br>
 		<div class="steps">
 			<h2>Steps</h2>
 			{% for step in page.steps %}

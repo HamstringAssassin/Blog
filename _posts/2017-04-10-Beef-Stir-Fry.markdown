@@ -5,8 +5,7 @@ date:   2017-04-10 20:56:00
 categories: 
 image: http://placehold.it/300x300
 
-about: 
-- A simple, quick thai beef stir fry. The veg here can be substituted or added to depending on what you have lying around or what you prefer. 
+description: A simple, quick thai beef stir fry. The veg here can be substituted or added to depending on what you have lying around or what you prefer. 
 
 steps: 
  - Fry the beef, ginger, chilli and coriander together
