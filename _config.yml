@@ -1,13 +1,8 @@
 # Site settings
-
-email: your-email@domain.com
-
 baseurl: "/Recipes" # the subpath of your site, e.g. /blog/
 url: "http://hamstringassassin.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
-# markdown: kramdown
+markdown: kramdown
 
 port: 8080
