@@ -1,0 +1,32 @@
+<div class="post-list-container">
+
+
+  <ul class="post-list list-group">
+    {% for post in site.posts %}
+
+    <div class="post-container">
+      <li class="post-item list-group-item">
+        <div class="row">
+          <div class="col-sm-10">
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </div>
+          <div class="col-sm-2">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          </div>
+        </div>
+
+
+        <p class="post-description">
+          {{ post.description }}
+        </p>
+
+      </li>
+    </div>
+    {% endfor %}
+  </ul>  
+
+
+</div>
+

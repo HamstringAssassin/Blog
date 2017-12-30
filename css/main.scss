@@ -42,11 +42,12 @@ $on-laptop:        800px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+//Default
+// @import "_jekyllDefault/jekyllDefault";
+
+//Custom
+@import "base";
+@import "postlist";
+@import "header";
+@import "footer";
